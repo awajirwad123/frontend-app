@@ -3,6 +3,13 @@
 A React single-page application that provides the customer-facing UI for the platform.
 It consumes `auth-api` for authentication and `user-api` for profile data.
 
+
+## Architecture Diagram
+
+![frontend-app component architecture](docs/architecture.png)
+
+*React component layers: Pages → Components → Stores/API client*
+
 ## Purpose
 
 `frontend-app` is the primary web UI. It handles login, session management, user profile,
